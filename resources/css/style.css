@@ -79,11 +79,10 @@ h1 p {
 /* MES PROJETS */
 
 #projets {
-    margin: 10rem 0 0 8rem;
     padding-right: 2rem;
     display: flex;
     flex-direction: row;
-    width: 85%;
+    width: 84.9%;
     height: 100%;
     margin: 8rem 0 0 8rem;
 }
@@ -99,6 +98,7 @@ h1 p {
 
 .languages img {
     width: 20%;
+    padding-bottom: 1.24rem;
 }
 
 .image {
@@ -126,6 +126,11 @@ figure {
     width: 45%;
     height: 40%;
     padding-bottom: 2rem;
+}
+
+.image a {
+    text-decoration: none;
+    color: white;
 }
 
 figcaption {
